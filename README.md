@@ -4,8 +4,8 @@ A game server manager which uses Docker to run and manage each server instance, 
 This allows game clients to request a server to be created using a REST API.
 
 Originally written for the open source game
-[Flappy Race](https://github.com/StuxGames/FlappyRace).
-Used as part of the [Flappy Race Backend](https://github.com/StuxGames/FlappyRaceBackend) which
+[Flappie Race](https://github.com/StuxGames/FlappieRace).
+Used as part of the [Flappie Race Backend](https://github.com/StuxGames/FlappieRaceBackend) which
 contains other microservices for the game.
 
 ## API Overview
