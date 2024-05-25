@@ -10,10 +10,10 @@ from fastapi import FastAPI, HTTPException, status
 from pydantic import BaseModel
 
 DOCKER_USER = "stuxgames"
-DOCKER_REPO = "flappyrace"
+DOCKER_REPO = "flappierace"
 DOCKER_HUB_URL = "https://hub.docker.com/v2/namespaces/{user}/repositories/{repo}/tags/"
 IMAGE_NAME = f"{DOCKER_USER}/{DOCKER_REPO}"
-SECRETS_VOLUME = "flappyracebackend_nginx_secrets"
+SECRETS_VOLUME = "flappieracebackend_nginx_secrets"
 MAX_CONTAINER_RETRIES = 10
 MAX_RUNNING_SERVERS = 20
 MAX_TAGS = 5
